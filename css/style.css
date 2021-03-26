@@ -1,0 +1,217 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header_menu{
+    background: #E5E5E5;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    height: 100%;
+    text-align: center;
+}
+.header_menu a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    margin: 0 15px;
+}
+.header_logo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.header_logo_item{
+    display: flex;
+}
+.header_logo_item img{
+    object-fit: contain;
+    margin-bottom: 63px;
+}
+
+.header_logo_item2{
+    display: flex;
+}
+.header_logo_item a{
+    margin-top: 10px;
+    margin-left: 23px;
+    color: #66C05D;
+    text-decoration: none;
+    font-size: 36px;
+}
+.header_logo_item2 a:nth-child(1){
+    color: black;
+    margin-right: 60px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.header_logo_item2 a:nth-child(2){
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 2px solid green;
+    margin-bottom: 87px;
+    padding: 12px 26px;
+    border-radius: 40px;
+}
+.header_footer_menu{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.header_footer_menu a{
+    text-decoration: none;
+    margin: 0 38px;
+    color: black;
+}
+.chair_bg{
+    background-image: url('../img/stul.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+.chair_bg p:nth-child(1){
+    margin-top: 199px;
+    color: white;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+.chair_bg p:nth-child(2){
+    color: white;
+    font-size: 18px;
+    width: 250px;
+    height: 125px;
+    margin-bottom: 25px;
+}
+.chair_bg a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 12px 35px;
+    border-radius: 30px;
+}
+.chair{
+    margin-bottom: 80px;
+}
+.main{
+    background: #E5E5E5;
+    overflow: hidden;
+}
+.main_chair_items{
+    width: 255px;
+    height: 400px;
+    background-color: white;
+    background-image: url('../img/little\ chair.png');
+    background-repeat: no-repeat;
+    background-position-y: 36px;
+    background-position-x: 72px;    
+    border: 1px solid green;
+}
+.main_chair_items p:nth-child(1){
+    padding-top: 219px;
+    text-align: center;
+}
+.main_chair_items p:nth-child(2){
+    font-size: 25px;
+    text-align: center;
+}
+.main_chair_items span{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border: 1px solid green;
+    border-radius: 23px;
+    background-color: green;
+    color: white;
+}
+.main_chair_items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_chair_items a{
+    text-decoration: none;
+    width: 80%;
+
+}
+.main_chair{
+    margin-bottom: 101px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.message{
+    width: 43%;
+    height: 212px;
+    background: #66C05D;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 56px;
+    
+}
+.message_items{
+    display: flex;
+    flex-direction: column;
+}
+.message p:nth-child(1){
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 18px;
+}
+.message p:nth-child(2){
+    margin-left: 40px;
+    width: 231px;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+}
+.message input{
+    width: 225px;
+    height: 35px;
+    margin-top: 7px;
+    margin-left: 40px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    color: #C4C4C4;
+    padding-left: 35px;
+}
+.bg_img{
+    object-fit: cover;
+    width: 140px;
+    height: 106px;
+    margin-top: 52px;
+    margin-right: 48px;
+}
+.messages{
+    display: flex;
+}
+.message_items a{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    border: 1px solid white;
+    max-width: 170px;
+    width: 100%;
+    height: 35px;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    font-size: 14px;
+    
+}
+.message_items a span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.m{
+    margin-left: 30px;
+}
